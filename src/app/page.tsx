@@ -38,6 +38,7 @@ export default function Page() {
             <IconLink href="https://github.com/mattLaurin" label="GitHub"><Github/></IconLink>
             <IconLink href="mailto:matthieu.laurin.1@ens.etsmtl.ca" label="Email"><Mail/></IconLink>
             {/* <IconLink href="/cv.pdf" label="CV"><FileText/></IconLink> */}
+            { <IconLink href="" label="CV"><FileText/></IconLink> }
           </div>
         </div>
       </Section>
@@ -69,7 +70,7 @@ export default function Page() {
             <div className="card p-6 col-span-12 lg:col-span-4 lg:col-start-9">
               <h3 className="text-xl font-semibold border-b border-white">Education</h3>
               <div className="mt-4 space-y-1">
-                <p className="font-semibold"> Software Engineering Bachelor's Degree </p>
+                <p className="font-semibold"> Software Engineering Bachelor&apos;s Degree </p>
                 <p className="text-white/70">ÉTS — 2023 – Present</p>
               </div>
               <div className="mt-4 space-y-1"> 

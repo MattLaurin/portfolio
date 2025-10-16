@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { getProject, allSlugs } from "@/lib/projects";
+import ReactMarkdown from "react-markdown";
 
 export async function generateStaticParams() {
   return allSlugs().map((slug) => ({ slug }));
@@ -41,8 +42,8 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         )}
 
         {project.body && (
-          <div className="prose prose-invert mt-8 max-w-none">
-            <p>{project.body}</p>
+          <div className="prose prose-invert mt-8 max-w-none leading-relaxed">
+            <ReactMarkdown>{project.body}</ReactMarkdown>
           </div>
         )}
 
