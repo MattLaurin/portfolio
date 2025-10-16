@@ -33,10 +33,11 @@ export default function Page() {
           </h2>
 
           <div className="mt-10 flex items-center justify-center gap-4">
-            <IconLink href="https://www.linkedin.com/in/matthieulaurin/" label="LinkedIn"><Linkedin/></IconLink>
+            {/* <IconLink href="https://www.linkedin.com/in/matthieulaurin/" label="LinkedIn"><Linkedin/></IconLink> */}
+            <IconLink href="https://www.linkedin.com/feed/" label="LinkedIn"><Linkedin/></IconLink>
             <IconLink href="https://github.com/mattLaurin" label="GitHub"><Github/></IconLink>
             <IconLink href="mailto:matthieu.laurin.1@ens.etsmtl.ca" label="Email"><Mail/></IconLink>
-            <IconLink href="/cv.pdf" label="CV"><FileText/></IconLink>
+            {/* <IconLink href="/cv.pdf" label="CV"><FileText/></IconLink> */}
           </div>
         </div>
       </Section>
@@ -54,7 +55,7 @@ export default function Page() {
                 Software engineering student at ÉTS with a growing interest in Artificial Intelligence and Cybersecurity.
                 Skilled in full-stack programming, automation, optimization, and collaborative projects. Recognized for adaptability, strong problem-solving abilities, and delivering impactful projects.
               </p>
-              <div className="mt-5 flex gap-3">
+              {/* <div className="mt-5 flex gap-3">
                 <a className="btn-ghost" href="/cv.pdf" target="_blank" rel="noopener noreferrer">
                   <FileText size={18} /> View CV
                 </a>
@@ -62,7 +63,7 @@ export default function Page() {
                 <a className="btn-primary" href="/cv-download">
                   Download CV
                 </a>
-              </div>
+              </div> */}
             </div>
 
             <div className="card p-6 col-span-12 lg:col-span-4 lg:col-start-9">
@@ -129,7 +130,10 @@ export default function Page() {
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
               <a className="btn-primary" href="mailto:matthieu.laurin.1@ens.etsmtl.ca">Email me</a>
-              <a className="btn-ghost" href="https://www.linkedin.com/in/matthieulaurin/" target="_blank" rel="noreferrer">
+              {/* <a className="btn-ghost" href="https://www.linkedin.com/in/matthieulaurin/" target="_blank" rel="noreferrer">
+                <MapPin size={16}/> Montreal, Canada
+              </a> */}
+              <a className="btn-ghost" href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer">
                 <MapPin size={16}/> Montreal, Canada
               </a>
             </div>
