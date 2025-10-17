@@ -23,7 +23,7 @@ export default function Page() {
 
       <Section id="home" className="pt-28">
         <div className="text-center">
-          <h1 className="text-3xl font-extrabold"> Zirfix 'Zfx'</h1>
+          <h1 className="text-3xl font-extrabold"> Zirfix &apos;Zfx&apos;</h1>
           <p className="mt-2 inline-flex items-center gap-2 text-white/70">
             <span>🇨🇦</span> Based in Canada
           </p>
