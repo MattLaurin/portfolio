@@ -23,7 +23,7 @@ export default function Page() {
 
       <Section id="home" className="pt-28">
         <div className="text-center">
-          <h1 className="text-3xl font-extrabold">Matthieu Laurin</h1>
+          <h1 className="text-3xl font-extrabold"> Zirfix 'Zfx'</h1>
           <p className="mt-2 inline-flex items-center gap-2 text-white/70">
             <span>🇨🇦</span> Based in Canada
           </p>
@@ -45,7 +45,7 @@ export default function Page() {
 
       <Section id="about">
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-5xl font-extrabold">Matthieu Laurin </h2>
+          <h2 className="text-5xl font-extrabold">Zfx</h2>
           <p className="mt-4 text-lg text-white/80">
           </p>
 
@@ -89,7 +89,7 @@ export default function Page() {
       <Section id="projects">
   <div className="mx-auto max-w-6xl">
     <h2 className="text-6xl font-extrabold">PROJECTS</h2>
-    <p className="mt-4 text-white/80">Browse by category.</p>
+    <p className="mt-4 text-white/80">Browse by category. Personal projects is mainly Roblox related for now. <br />Many more projects will be displayed later. Jobs is also missing a lot of projects.</p>
 
     <div className="mt-6 flex w-full gap-3">
       {[

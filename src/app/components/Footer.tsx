@@ -6,9 +6,9 @@ export default function Footer() {
           <div className="flex flex-col gap-12 md:flex-row md:items-start md:justify-between">
             <div className="flex-shrink-0">
               <h2 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
-                Matthieu
+                {/* Matthieu */}
                 <br />
-                Laurin
+                Zfx
               </h2>
             </div>
 
@@ -86,7 +86,7 @@ export default function Footer() {
 
         <div className="mt-6 flex items-center justify-between px-2 text-sm text-white/50 text-muted-foreground md:text-base">
           <p>© {new Date().getFullYear()}</p>
-          <p>Matthieu Laurin</p>
+          <p>Zfx</p>
         </div>
       </div>
     </footer>

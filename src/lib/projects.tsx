@@ -95,6 +95,29 @@ export const projects: Project[] = [
     Players can trade, collect rare mutations like "Giant" or "VoidTouched", and even sabotage others’ setups. 
     Features a modular cooking system, persistent data saving, and custom economic balancing for long-term play.
 
+    What I did :
+       - Datamanager/datainit/profile service
+       - Offline cooking
+       - Cooking system
+       - Object placement system
+       - Brainrot Placement system (for cooking)
+       - Brainrot spawning system (similar to Steal a brainrot)
+       - Brainrot pick up system (client-sided so everyone can pick up a copy)
+       - Inventory system with categories
+       - Sell NPC  (inventory, held item, see value)
+       - Tools / ovens system. (Different attributes for different type of ovens)
+       - Rebirth System
+       - Rotation/Editing of previously placed Ovens
+       - Automatic Plot assigning system
+       - Plot placed items saving system
+       - Automatic Mythic spawning (every 15mins)
+       - Leftover shop --> Missed brainrots go in that shop so people can buy it for money
+       - Premium store (gamepass and money for monetization)
+       - Mutations / Events
+       - Weight system that's random on every spawn
+       - Placement system with a preview for the brainrots and the oven's
+
+    **Video On Request**
     **Status:** Private (pre-release build, multiplayer-ready)
     `,
     },
@@ -111,22 +134,77 @@ export const projects: Project[] = [
     Includes data-backed leaderboards, reward systems, and monetized skip mechanics. 
     Built using modular handlers for leaderboards, shop systems, and troll detection.
 
+    Task for this game :
+       - Datamanager/Datainit / Datasaving with ProfileService
+       - Troll options for robux
+       - Troll option buttons
+       - Group unlocked door
+       - Donation chest
+       - Nuke button
+       - Troll menu options
+       - Pay to get back up  feature
+       - Disapearing platforms / walls
+       - Mines / explosions
+       - Ice platforms
+       - Daily Reward with playtime
+       - Leaderboard system
+       - Admin Panel
+       - Exagerated Physics for the slapping related stuff
+
     **Visits:** 160,000+ players  
+    https://www.roblox.com/share?code=dffcbb6ea9bc8b4cbf66275f7dd5256c&type=ExperienceDetails&stamp=1760577246919
     **Core Systems:** Economy, leaderboard tracking, shop purchases, troll events.
     `,
     },
     {
     slug: "robgame-prototype",
     category: "personal",
-    title: "RobGame (Prototype)",
+    title: "Hang Off My Loot!",
     summary:
-        "Base-building sandbox prototype focused on creative freedom and player-driven expansion.",
-    image: "/projects/robgame.png",
+        "Base-building game where you protect your loot by building structures, placing traps and shooting bandits",
+    image: "/projects/hangofftheloot.png",
     tech: ["Lua", "Luau", "Roblox Studio"],
     body: `
-    An early-stage *build-your-base* experience emphasizing creativity, cooperative construction, and persistent world saving.
-    Features include a modular placement system, snapping grid, and local session saves. 
-    Designed as a foundation for future multiplayer expansion.
+    A soon-to-be released multiplayer base-defense game where players gather gold to buy structures, weapons, turrets and defend their
+    loot from waves of bandits. Features include dynamic building placement, turret system, plot system, weapon system, etc.
+
+    **Expected release date** : Oct 2025
+    `,
+    },
+    {
+    slug: "DefendTheBrainrot",
+    category: "personal",
+    title: "Defend The Brainrot",
+    summary:
+        "Wave-based survival game where you protect a brainrot in your base from waves of incoming zombies and bosses. Earn money and complete quests for better weapons and defenses.",
+    image: "/projects/defendthebrainrot.jpg",
+    tech: ["Lua", "Luau", "Roblox Studio"],
+    body: `
+    A soon-to-be released multiplayer base-defense game where players gather cash to
+    buy weapons, traps and defend their brainrot from waves of zombies. 
+    Features include dynamic trap placement, weapon system, zombie AI, boss fights, etc.
+
+    Tasks : 
+ 
+       - Gun system
+       - Ammo shop
+       - Gun shop
+       - Traps shop
+       - Traps system
+       - Traps placement system
+       - ZombieAI
+       - Zombie Spawning
+       - Task system
+       - Task UI
+       - Brainrot health system / game restarting system
+       - Matchmaking
+       - Lobby system
+       - Weapon mods system (RNG)
+       - Boss system
+       - Optimization, etc.
+       - Down system (with revive)
+
+    **Expected release date** : Q4 2025
     `,
     },
 ];

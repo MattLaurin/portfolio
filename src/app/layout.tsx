@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "MattLaurin.dev",
+  title: "Zfx - Portfolio ",
   description: "Software Engineering student crafting crisp, user-centric apps.",
 };
 
