@@ -60,7 +60,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/matthieulaurin/"
+                      href="https://www.linkedin.com/feed/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="transition-colors hover:text-foreground"
